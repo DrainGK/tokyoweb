@@ -7,7 +7,8 @@ function Footer() {
         <p className='text-5xl text-slate-300'><a href="/">Tokyo Web <p className="text-xs font-[Oswald] font-light text-slate-300">by Guillaume</p></a></p>
         <p className='text-lg font-light font-[Oswald] text-slate-300'>Copyright 2024 © Guillaume Lopez</p>
         <div className='text-2xl'>
-          <a href="/linkedin.com"><FaLinkedin /></a>
+          <a href="https://www.linkedin.com/in/guillaume-lopez-7747181a1/"
+        target="_blank"><FaLinkedin /></a>
             
         </div>
     </footer>
