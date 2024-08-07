@@ -224,10 +224,16 @@ function Home() {
         </p>
 
         <p>
-          {t("hello")}
+          {t("title")}
         </p>
         <p>
-          {t("zob")}
+          {t("label")}
+        </p>
+        <p>
+          {t("about")}
+        </p>
+        <p>
+          {t("home")}
         </p>
         <div className="w-[60%]  mx-auto md:flex justify-between text-black relative ">
           <div className="flex flex-col text-4xl gap-y-8 my-12 md:my-0">

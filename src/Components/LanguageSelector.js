@@ -9,9 +9,9 @@ function classNames(...classes) {
 
 let countries = [
   {
-    code: "JP",
+    code: "jp",
     name: "日本語",
-    country_code: "JP",
+    country_code: "jp",
   },
   {
     code: "en",

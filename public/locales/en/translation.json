@@ -1,4 +1,6 @@
 {
-    "hello": "konichiwaw",
-    "zob":"peepee"
+    "title": "Multi-language app",
+    "label": "Select another language!",
+    "about": "About",
+    "home": "Home"
 }

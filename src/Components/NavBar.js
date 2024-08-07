@@ -56,6 +56,9 @@ export default NavBar;
 const NavLeft = ({ setIsOpen }) => {
   return (
     <div className="flex items-center gap-6">
+      <div className='block lg:hidden'>
+        <LanguageSelector />
+      </div>
       <motion.button
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
@@ -72,7 +75,9 @@ const NavLeft = ({ setIsOpen }) => {
       <div className='hidden md:block'>
         <BookButton />
       </div>
+      <div className='hidden md:block'>
         <LanguageSelector />
+      </div>
     </div>
   );
 };
